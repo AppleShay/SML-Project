@@ -1,0 +1,91 @@
+\documentclass{article}
+\usepackage[nonatbib]{neurips_2022} % Use preprint or final for other versions
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\usepackage{booktabs} % For professional-looking tables
+
+% Add any custom packages here
+
+\title{Do We Need More Bikes? \\ A Machine Learning Approach to Predicting Bike Demand}
+
+
+\author{Anonymous Authors} % Leave anonymous for peer review
+\usepackage{lineno}
+\linenumbers
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+In this report, we address the problem of predicting whether the number of bikes in a public bike-sharing system needs to be increased at a given hour. Using features such as time, weather, and demand patterns, we implement and compare multiple classification models, including logistic regression, decision trees, and boosting. Our results highlight the performance trade-offs and suggest a suitable model for production deployment.
+\end{abstract}
+
+
+
+
+
+\section{Introduction} % This will automatically be bold and 12-point
+Introduce the problem and its significance. Discuss how bike availability impacts sustainability and CO2 emissions.
+
+\section{Data Analysis}
+- \textbf{Features:} Categorize numerical and categorical features.
+- \textbf{Trends:} Visualize demand trends by time, weather, and holidays.
+- \textbf{Preprocessing:} Describe data cleaning and transformations.
+
+\section{Methods}
+Explain the mathematical foundation of each classification method:
+1. Logistic Regression
+2. Decision Trees
+3. Random Forests
+4. Boosting
+
+\section{Model Evaluation}
+Describe evaluation metrics and compare models:
+- Accuracy, F1-score, etc.
+- Cross-validation results.
+
+\section{Model Selection}
+Explain the rationale for choosing a specific model for production.
+
+\section{Conclusion}
+Summarize findings and potential impacts.
+
+
+\section*{References}
+
+
+References follow the acknowledgments. Use unnumbered first-level heading for
+the references. Any choice of citation style is acceptable as long as you are
+consistent. It is permissible to reduce the font size to \verb+small+ (9 point)
+when listing the references.
+Note that the Reference section does not count towards the page limit.
+\medskip
+
+
+{
+\small
+
+
+[1] Alexander, J.A.\ \& Mozer, M.C.\ (1995) Template-based algorithms for
+connectionist rule extraction. In G.\ Tesauro, D.S.\ Touretzky and T.K.\ Leen
+(eds.), {\it Advances in Neural Information Processing Systems 7},
+pp.\ 609--616. Cambridge, MA: MIT Press.
+
+
+[2] Bower, J.M.\ \& Beeman, D.\ (1995) {\it The Book of GENESIS: Exploring
+  Realistic Neural Models with the GEneral NEural SImulation System.}  New York:
+TELOS/Springer--Verlag.
+
+
+[3] Hasselmo, M.E., Schnell, E.\ \& Barkai, E.\ (1995) Dynamics of learning and
+recall at excitatory recurrent synapses and cholinergic modulation in rat
+hippocampal region CA3. {\it Journal of Neuroscience} {\bf 15}(7):5249-5262.
+}
+
+
+\appendix
+\section*{Code Appendix} % This removes numbering for appendix sections
+Include your main code snippets here.
+
+
+\end{document}
